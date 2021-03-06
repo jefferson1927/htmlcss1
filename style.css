@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 10px;
+}
+
+body, html{
+    height: 100%;
+}
+
+body {
+background-color: white;
+    margin:0px;
+}
+
+.container{
+    width: 100%;
+    border-top: 70px solid rgb(250, 135, 135);
+}
+
+.container123{
+    display: flex;
+    
+    margin: -40px 100px 50px 100px;
+    transition: transform .5s;
+}
+
+.container123 .row figure {
+    transform: scale(1.1);
+}
+
+.container123 .container1, .container2, .container3{
+    width: 33%;
+    margin: 7px;
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
+    border: black 2px solid;
+    background-color: rgb(238, 225, 202);
+}
+
+.container123 .row .image{
+    display: flex;
+    place-content: center;
+
+}
+
+.container1 figure img{
+    width: 100%;
+   
+}
+
+.container2 figure img{
+    width: 100%;
+   
+}
+.container3 figure img{
+    width: 100%;
+   
+}
+
+
+
+.container123 .row .text {
+    text-align: center;
+}
+
+.container123 .row button {
+    width: 100%;
+    color: black;
+    padding: 13px 29px;
+    cursor: pointer;
+    background: rgb(0, 255, 85);
+}
+
+.container123 .row button:hover {
+    
+    background: lightskyblue;
+}
